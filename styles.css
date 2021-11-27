@@ -1,17 +1,21 @@
 
 h1{
     text-align: left;
-    margin: auto;
+    margin-left: 700px;
     width: 50%;
     /*background-color: #333;*/
 }
 
 nav{
-    margin: auto;
+    margin-left: 660px;
     width: 50%;
 }
 
 nav a{
-    margin: auto;
     width: 50%;
+}
+
+li{
+    display: inline;
+    margin-right: 60px;
 }
