@@ -1,0 +1,25 @@
+body {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+h1 {
+    margin-left: 350px;
+}
+
+p {
+    margin: 5px;
+}
+
+.subhead {
+    display: inline-block;
+}
+
+.date {
+    display: inline-block;
+    float: right;
+}
+
+li {
+    margin: 5px;
+}
