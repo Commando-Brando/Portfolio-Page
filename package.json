@@ -1,0 +1,19 @@
+{
+  "name": "the-hub",
+  "version": "1.0.0",
+  "description": "This is a technical interview study project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Commando-Brando/The-Hub.git"
+  },
+  "author": "Brandon Muller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Commando-Brando/The-Hub/issues"
+  },
+  "homepage": "https://github.com/Commando-Brando/The-Hub#readme"
+}
