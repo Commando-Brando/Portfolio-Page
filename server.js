@@ -1,6 +1,15 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
+const mongoose = require('mongoose');
+
+mongoose.connect('mongodb://localhost:27017/test', { useNewUrlParser: true, useUnifiedTopology: true })
+.then(() => {
+    console.log('connected to mongodb');
+})
+.catch(err => {
+    console.log(err);
+});
 
 const app = express();
 
@@ -14,8 +23,16 @@ app.get('/', (req, res) => {
     res.render('index', {title: 'Home'});
 });
 
-app.get('/questionsubmit', (req, res) => {
-    res.render('questionsubmit', {title: 'Question Submit'});
+app.get('/question-submit', (req, res) => {
+    res.render('question-submit', {title: 'Question Submit'});
+});
+
+app.get('/quick-start', (req, res) => {
+    res.render('quick-start', {title: 'Quick Start'});
+});
+
+app.get('/contact', (req, res) => {
+    res.render('contact', {title: 'Contact'});
 });
 
 function test() {
