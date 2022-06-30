@@ -1,6 +1,24 @@
 <%-include('partials/head'); %>
 <%-include('partials/nav'); %>
 
+<!-- <script>
+    const showcase_json = {
+        question: 'What is a dynamically typed language?',
+        answer: 'A language where data types are checked during execution like in Python',
+        qlink: 'https://www.interviewbit.com/python-interview-questions/',
+        multiple_choice: [
+            'A language where data types are checked during execution like in Python',
+            'A language where data types are checked during compilation like in C++',
+            'A language where data types are checked during compilation like in C#',
+            'A language where data types are checked during execution like in Java'
+        ],
+        topics: ['python', 'general', 'interview'],
+        date_created: '2020-01-01',
+        date_updated: '2022-01-01',
+        difficulty: 1
+    }
+</script> -->
+
 <div class="container">
     <h1 class="mainheading">Computer Science Trivia API</h1>
     <div class="row">
@@ -10,7 +28,7 @@
                 and get knowledge for technical interviews.</p>
         </div>
         <div class="col-md-6" style="background-color: white;">
-            <p>Sample JSON</p>
+            <pre id="showcase_json"></pre>
         </div>
     </div>
 
