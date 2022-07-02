@@ -8,7 +8,6 @@ const questionSchema = new Schema({
     multiple_choice: [String],
     topics: [String],
     date_created: { type: Date, default: Date.now },
-    date_updated: { type: Date, default: Date.now },
     difficulty: { type: Number, default: 1 }
 });
 
