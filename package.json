@@ -4,7 +4,8 @@
   "description": "This is a technical interview study project",
   "main": "server.js",
   "scripts": {
-    "nodemon": "nodemon server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",

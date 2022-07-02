@@ -1,0 +1,13 @@
+version: '2'
+
+# WIP: This is a work in progress.
+services:
+  web:
+    build: .
+    command: npm run server.js
+    volumes: 
+      - .:/app
+      - /usr/app/node_modules
+    ports:
+      - "3000:3000"
+    

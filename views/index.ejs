@@ -1,31 +1,16 @@
 <%-include('partials/head'); %>
 <%-include('partials/nav'); %>
 
-<!-- <script>
-    const showcase_json = {
-        question: 'What is a dynamically typed language?',
-        answer: 'A language where data types are checked during execution like in Python',
-        qlink: 'https://www.interviewbit.com/python-interview-questions/',
-        multiple_choice: [
-            'A language where data types are checked during execution like in Python',
-            'A language where data types are checked during compilation like in C++',
-            'A language where data types are checked during compilation like in C#',
-            'A language where data types are checked during execution like in Java'
-        ],
-        topics: ['python', 'general', 'interview'],
-        date_created: '2020-01-01',
-        date_updated: '2022-01-01',
-        difficulty: 1
-    }
-</script> -->
-
 <div class="container">
-    <h1 class="mainheading">Computer Science Trivia API</h1>
-    <div class="row">
-        <div class="col-md-6" style="background-color: white;">
+    <h1 class="mainheading mt-4">Computer Science Trivia API</h1>
+    <div class="row p-5 align-items-center justify-content-center">
+        <div class="col-md-6 p-5 text-center">
+            <h4>Overview</h4>
             <p>The goal of this website is to help our fellow Computer Science 
                 students learn more about the field, study for their education, 
-                and get knowledge for technical interviews.</p>
+                and get knowledge for technical interviews. We have a API that allows users
+                get study questions to use for flash card or trivia. Users can create accountfa-spin
+                and submit their own questions to be added upon admin review.</p>
         </div>
         <div class="col-md-6" style="background-color: white;">
             <pre id="showcase_json"></pre>
@@ -33,8 +18,54 @@
     </div>
 
     <hr>
-
-    <button class="btn btn-primary">Get Started Now</button>
+    <div class="row text-center">
+        <div class="col">
+            <button class="btn btn-primary mt-3">Get Started Now</button>
+        </div>
+    </div>
+    
 </div>
+
+<script>
+
+    function syntaxHighlight(json) {
+        if (typeof json != 'string') {
+            json = JSON.stringify(json, undefined, 2);
+        }
+        json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+            var cls = 'number';
+            if (/^"/.test(match)) {
+                if (/:$/.test(match)) {
+                    cls = 'key';
+                } else {
+                    cls = 'string';
+                }
+            } else if (/true|false/.test(match)) {
+                cls = 'boolean';
+            } else if (/null/.test(match)) {
+                cls = 'null';
+            }
+            return '<span class="' + cls + '">' + match + '</span>';
+        });
+    }
+
+    const showcase_json = {
+        question: 'Which of the following is NOT a Python data type?',
+        answer: 'char',
+        ref_link: 'https://www.pythonknowledge.com/python-data-types/',
+        incorrect_answers: [
+            'int',
+            'float',
+            'string'
+        ],
+        categories: ['python'],
+        date_created: '2020-01-01',
+        difficulty: "hard"
+    }
+    const stringifiedJson = JSON.stringify(showcase_json, undefined, 4)
+    document.getElementById('showcase_json').innerHTML = syntaxHighlight(stringifiedJson);
+
+</script>
 
 <%-include('partials/footer'); %>

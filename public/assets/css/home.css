@@ -10,6 +10,13 @@ p {
     text-align: center;
 }
 
+pre {outline: 1px solid #ccc; padding: 5px; margin: 5px; font-size: small;}
+.string { color: #1a1aa5; }
+.number { color: darkorange; }
+.boolean { color: blue; }
+.null { color: magenta; }
+.key { color: #318495; }
+
 .mainheading {
     text-align: center;
 }
