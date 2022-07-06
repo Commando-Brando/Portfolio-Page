@@ -207,7 +207,7 @@ Brandon Muller - [@Brandon_SWE](https://twitter.com/Brandon_SWE) - lift.off.to.a
 [issues-shield]: https://img.shields.io/github/issues/commando-brando/the-hub.svg?style=for-the-badge
 [issues-url]: https://github.com/commando-brando/the-hub/issues
 [license-shield]: https://img.shields.io/github/license/commando-brando/the-hub.svg?style=for-the-badge
-[license-url]: https://github.com/commando-brando/the-hub/blob/master/LICENSE.txt
+[license-url]: https://github.com/commando-brando/the-hub/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/brandon-muller
 [product-screenshot]: public/assets/img/homescreenshot.png
