@@ -12,7 +12,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge&logo=appveyor)](./LICENSE.txt)
 
 
 <!-- PROJECT LOGO -->
