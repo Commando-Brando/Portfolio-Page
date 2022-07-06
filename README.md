@@ -187,8 +187,7 @@ Brandon Muller - [@Brandon_SWE](https://twitter.com/Brandon_SWE) - lift.off.to.a
 ## Acknowledgments
 * [Share Thy Knowledge Discord](https://discord.gg/sr2n3yVh2r)
 * [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Best Readme](https://github.com/othneildrew/Best-README-Template)
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
@@ -208,7 +207,7 @@ Brandon Muller - [@Brandon_SWE](https://twitter.com/Brandon_SWE) - lift.off.to.a
 [issues-shield]: https://img.shields.io/github/issues/commando-brando/the-hub.svg?style=for-the-badge
 [issues-url]: https://github.com/commando-brando/the-hub/issues
 [license-shield]: https://img.shields.io/github/license/commando-brando/the-hub.svg?style=for-the-badge
-[license-url]: https://github.com/commando-brando/the-hub/blob/master/LICENSE.txt
+[license-url]: https://github.com/commando-brando/the-hub/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/brandon-muller
 [product-screenshot]: public/assets/img/homescreenshot.png
