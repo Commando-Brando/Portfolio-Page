@@ -1,0 +1,26 @@
+CREATE TABLE IF NOT EXISTS `question` (
+  `id` int(6) unsigned NOT NULL,
+  `question` varchar(250),
+  PRIMARY KEY (`id`)
+) DEFAULT CHARSET=utf8;
+INSERT INTO `question` (`id`, `question`) VALUES
+  ('1', 'first entry'),
+  ('2', 'second entry'),
+  ('3', 'third entry');
+  
+CREATE TABLE IF NOT EXISTS `incorrect` (
+  `id` int(6) unsigned NOT NULL,
+  `questionId` int(6) unsigned NOT NULL,
+  `text` varchar(250),
+  PRIMARY KEY (`id`, `questionId`)
+) DEFAULT CHARSET=utf8;
+INSERT INTO `incorrect` (`id`, `questionId`, `text`) VALUES
+  ('1', '1', 'incorrect 1st for 1st'),
+  ('2', '1', 'incorrect 2st for 1st'),
+  ('3', '2', 'incorrect 1st for 2nd');
+
+
+// SQL Queries
+
+SELECT * FROM `incorrect` WHERE questionId = 
+( SELECT id FROM `question` WHERE id = 1 ); 

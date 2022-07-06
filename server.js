@@ -1,15 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
-const mongoose = require('mongoose');
-
-mongoose.connect('mongodb://localhost:27017/test', { useNewUrlParser: true, useUnifiedTopology: true })
-.then(() => {
-    console.log('Database connected successfully');
-})
-.catch(err => {
-    console.log(err);
-});
+// mysql = require('mysql');
 
 const app = express();
 
@@ -20,19 +12,19 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public')); // static lets us send images and css files to client side
 
 app.get('/', (req, res) => {
-    res.render('index', {title: 'Home'});
+    res.render('index', {title: 'Home', cssFile: 'index.css'});
 });
 
 app.get('/question-submit', (req, res) => {
-    res.render('question-submit', {title: 'Question Submit'});
+    res.render('question-submit', {title: 'Question Submit', cssFile: 'question-submit.css'});
 });
 
 app.get('/quick-start', (req, res) => {
-    res.render('quick-start', {title: 'Quick Start'});
+    res.render('quick-start', {title: 'Quick Start', cssFile: 'quick-start.css'});
 });
 
 app.get('/contact', (req, res) => {
-    res.render('contact', {title: 'Contact'});
+    res.render('contact', {title: 'Contact', cssFile: 'contact.css'});
 });
 
 function test() {
