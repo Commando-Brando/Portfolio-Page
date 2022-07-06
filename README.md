@@ -176,6 +176,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 Brandon Muller - [@Brandon_SWE](https://twitter.com/Brandon_SWE) - lift.off.to.andromeda@gmail.com
+<br>
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
