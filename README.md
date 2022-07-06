@@ -21,7 +21,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/commando-brando/the-hub">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="public/assets/img/readmelogo.svg" alt="Logo" width="150" height="100">
   </a>
 
 <h3 align="center">The Hub</h3>
@@ -29,14 +29,14 @@
   <p align="center">
     The Hub is a full stack web project aimed at helping Computer Science Students, Software Engineers, and other degrees/disciplines study for their academics, learn new technologies to advance careers, and prepare candidates for technical interviews. Our core feature is an API that will allow users to access a rich database full of tech questions. Studies have shown that repetition is a great way to not only learn things quickly but also maintain that knowledge over long periods of time. After deploying our API we will work toward a dynamic flash card generation system that will span many topics as well as some other features you can read more about below in our <a href="#roadmap">Project Roadmap</a>
     <br />
-    <a href="https://github.com/commando-brando/the-hub"><strong>Explore the docs »</strong></a>
+<!--     <a href="https://github.com/commando-brando/the-hub"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/commando-brando/the-hub">View Demo</a>
     ·
     <a href="https://github.com/commando-brando/the-hub/issues">Report Bug</a>
     ·
-    <a href="https://github.com/commando-brando/the-hub/issues">Request Feature</a>
+    <a href="https://github.com/commando-brando/the-hub/issues">Request Feature</a> -->
   </p>
 </div>
 
@@ -52,14 +52,15 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
+<!--     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
-    </li>
+    </li> 
     <li><a href="#usage">Usage</a></li>
+-->
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -95,6 +96,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 
 <!-- GETTING STARTED -->
+<!-- 
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -124,7 +126,7 @@ This is an example of how to list things you need to use the software and how to
    const API_KEY = 'ENTER YOUR API';
    ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 
 <!-- ROADMAP -->
