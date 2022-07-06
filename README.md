@@ -13,15 +13,13 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/commando-brando/the-hub">
-    <img src="public/assets/img/readmelogo.svg" alt="Logo" width="150" height="100">
+    <img src="public/assets/img/readmelogo2.svg" alt="Logo" width="150" height="100">
   </a>
 
 <h3 align="center">The Hub</h3>
@@ -178,6 +176,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 Brandon Muller - [@Brandon_SWE](https://twitter.com/Brandon_SWE) - lift.off.to.andromeda@gmail.com
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
