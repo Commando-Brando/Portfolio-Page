@@ -1,13 +1,4 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -22,30 +13,28 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/commando-brando/the-hub">
+    <img src="public/assets/img/readmelogo2.svg" alt="Logo" width="150" height="100">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">The Hub</h3>
 
   <p align="center">
-    project_description
+    The Hub is a full stack web project aimed at helping Computer Science Students, Software Engineers, and other degrees/disciplines study for their academics, learn new technologies to advance careers, and prepare candidates for technical interviews. Our core feature is an API that will allow users to access a rich database full of tech questions. Studies have shown that repetition is a great way to not only learn things quickly but also maintain that knowledge over long periods of time. After deploying our API we will work toward a dynamic flash card generation system that will span many topics as well as some other features you can read more about below in our <a href="#roadmap">Project Roadmap</a>
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+<!--     <a href="https://github.com/commando-brando/the-hub"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/commando-brando/the-hub">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/commando-brando/the-hub/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/commando-brando/the-hub/issues">Request Feature</a> -->
   </p>
 </div>
 
@@ -61,14 +50,15 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
+<!--     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
-    </li>
+    </li> 
     <li><a href="#usage">Usage</a></li>
+-->
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -84,28 +74,25 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [![Node][Node.js]][Node-url]
+* [![Express][Express.js]][Express-url]
+* [![Bootstrap][Bootstrap]][Bootstrap-url]
+* [![mySQL][mySQL]][mySQL-url]
+* [![Prisma][Prisma]][Prisma-url]
+* [![Docker][Docker]][Docker-url]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
+<!-- 
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -124,7 +111,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/commando-brando/the-hub.git
    ```
 3. Install NPM packages
    ```sh
@@ -135,30 +122,24 @@ This is an example of how to list things you need to use the software and how to
    const API_KEY = 'ENTER YOUR API';
    ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] CS Study API
+	- [ ] GET requests
+	- [ ] POST Requests
+- [ ] Populated quality dataset of questions
+- [ ] Deployed Website
+- [ ] Question Submission page
+- [ ] User account system
+- [ ] User Forum
+- [ ] Flash Card Generation & Integration
+- [ ] OpenAI Integration
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/commando-brando/the-hub/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -194,9 +175,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Brandon Muller - [@Brandon_SWE](https://twitter.com/Brandon_SWE) - lift.off.to.andromeda@gmail.com
+<br>
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -204,10 +185,13 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
-* []()
-* []()
-* []()
+* [Share Thy Knowledge Discord](https://discord.gg/sr2n3yVh2r)
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Img Shields](https://shields.io)
+* [GitHub Pages](https://pages.github.com)
+* [Font Awesome](https://fontawesome.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -215,49 +199,29 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/commando-brando/the-hub.svg?style=for-the-badge
+[contributors-url]: https://github.com/commando-brando/the-hub/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/commando-brando/the-hub.svg?style=for-the-badge
+[forks-url]: https://github.com/commando-brando/the-hub/network/members
+[stars-shield]: https://img.shields.io/github/stars/commando-brando/the-hub.svg?style=for-the-badge
+[stars-url]: https://github.com/commando-brando/the-hub/stargazers
+[issues-shield]: https://img.shields.io/github/issues/commando-brando/the-hub.svg?style=for-the-badge
+[issues-url]: https://github.com/commando-brando/the-hub/issues
+[license-shield]: https://img.shields.io/github/license/commando-brando/the-hub.svg?style=for-the-badge
+[license-url]: https://github.com/commando-brando/the-hub/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[linkedin-url]: https://linkedin.com/in/brandon-muller
+[product-screenshot]: public/assets/img/homescreenshot.png
 
-
-Current Path: 
-
-csAPI V1 (MVP):
-	- home
-		○ improve UI/UX 
-		○ add example JSON data
-	- Getting Started
-		○ API Documentation (possibly swagger) or homeade
-		○ API URL Generator
-	- Contact Page
-		○ basic contact page that sends to an email or something
-	- Back-end
-		○ create mongoose models for data
-		○ set up database
-		○ set up docker
-		○ set up k8
-	- create or figure out how to generate test data (possibly openAI)
-
-csAPI V2:
-	- question submission page
-		○ set up DB to recieve question submission
-	- Set up users accounts with email verification
-		○ user login/signup/account pages
-	- possible link to a forum like this
-
-csAPI V3:
-	- flash cards
-		○ link API to some flash card software to generate flash cards from
-		○ have downloadable flash cards on our site
-	- OpenAI
-		○ Utilize openAI for something like generating questions or something 
+[Node.js]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
+[Node-url]: https://nodejs.org/en/
+[Express.js]: https://img.shields.io/badge/Express.js-404D59?style=for-the-badge
+[Express-url]: https://expressjs.com/
+[Bootstrap]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com/
+[mySQL]: https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white
+[mySQL-url]: https://dev.mysql.com/doc/
+[Prisma]: https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white
+[Prisma-url]: https://www.prisma.io/docs/
+[Docker]:https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white
+[Docker-url]: https://docs.docker.com/
