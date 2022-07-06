@@ -35,6 +35,7 @@
     <a href="https://github.com/commando-brando/the-hub/issues">Report Bug</a>
     ·
     <a href="https://github.com/commando-brando/the-hub/issues">Request Feature</a> -->
+    <a href="https://discord.gg/sr2n3yVh2r">Join a Community</a>
   </p>
 </div>
 
