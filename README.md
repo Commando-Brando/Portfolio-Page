@@ -12,7 +12,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge&logo=appveyor)](./LICENSE.txt)
 
 
 <!-- PROJECT LOGO -->
@@ -25,7 +25,7 @@
 <h3 align="center">The Hub</h3>
 
   <p align="center">
-    The Hub is a full stack web project aimed at helping Computer Science Students, Software Engineers, and other degrees/disciplines study for their academics, learn new technologies to advance careers, and prepare candidates for technical interviews. Our core feature is an API that will allow users to access a rich database full of tech questions. Studies have shown that repetition is a great way to not only learn things quickly but also maintain that knowledge over long periods of time. After deploying our API we will work toward a dynamic flash card generation system that will span many topics as well as some other features you can read more about below in our <a href="#roadmap">Project Roadmap</a>
+    The Hub is a full stack web project aimed at helping Computer Science Students, Software Engineers, and other degrees/disciplines study for their academics, learn new technologies to advance careers, and prepare candidates for technical interviews. Our core feature is an API that will allow users to access a rich database full of tech questions. Studies have shown that repetition is a great way to not only learn things quickly but also maintain that knowledge over long periods of time. After deploying our API we will work toward a dynamic flash card generation system that will span many topics. We want to involve the community in developing our datasets so we plan to implement a question submission system with forums where questions can be discussed and added. View the rest of our plans at the <a href="#roadmap">Project Roadmap</a>
     <br />
 <!--     <a href="https://github.com/commando-brando/the-hub"><strong>Explore the docs »</strong></a>
     <br />
@@ -35,6 +35,9 @@
     <a href="https://github.com/commando-brando/the-hub/issues">Report Bug</a>
     ·
     <a href="https://github.com/commando-brando/the-hub/issues">Request Feature</a> -->
+	<br>
+	<br>
+    <a href="https://discord.gg/sr2n3yVh2r">Join a Learning Community</a>
   </p>
 </div>
 
@@ -66,8 +69,7 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
-
+<br>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -187,8 +189,7 @@ Brandon Muller - [@Brandon_SWE](https://twitter.com/Brandon_SWE) - lift.off.to.a
 ## Acknowledgments
 * [Share Thy Knowledge Discord](https://discord.gg/sr2n3yVh2r)
 * [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Best Readme](https://github.com/othneildrew/Best-README-Template)
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
@@ -208,7 +209,7 @@ Brandon Muller - [@Brandon_SWE](https://twitter.com/Brandon_SWE) - lift.off.to.a
 [issues-shield]: https://img.shields.io/github/issues/commando-brando/the-hub.svg?style=for-the-badge
 [issues-url]: https://github.com/commando-brando/the-hub/issues
 [license-shield]: https://img.shields.io/github/license/commando-brando/the-hub.svg?style=for-the-badge
-[license-url]: https://github.com/commando-brando/the-hub/blob/master/LICENSE.txt
+[license-url]: https://github.com/commando-brando/the-hub/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/brandon-muller
 [product-screenshot]: public/assets/img/homescreenshot.png
