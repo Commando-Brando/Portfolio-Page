@@ -1,0 +1,32 @@
+What is a graph?|A data structure that separates data into nodes which are connected based on their relationships to each other via edges
+In a graph what is a vertice?|A vertice is point in a graph that holds data and is connected to other vertices by edges. Vertices are synonymous with nodes
+In a graph what is an edge?|Edges represent a connection between two vertices
+In a graph what is a neighbor?|A neighbor is a node that is connected to another node by an edge 
+What is a directed graph?|A graph where the edges go one way and are not bi-directional like in an undirected graph. Example: one way street
+What is an undirected graph?|a graph where the edges are bi-directional meaning you can traverse NodeA to NodeB and vice versa with one edge connecting them
+When talking about graphs what is a path?|A sequence of vertices connected by edges
+When talking about graphs what is a cycle?|A path whose first and last vertices are the same
+What is a cyclic graph?|A graph that contains a least one cycle
+What is a acyclic graph?|A graph that has no cycles
+What does DAG stand for?|Directed Acyclic Graph, which is a directed graph in which there are no cycles
+What is a DAG?|A graph that is a directed graph in which there are no cycles
+In a DAG what is a sink?|A node that has no outgoing edges only incoming edges
+In a DAG what is a source?|A node that has only outgoing edges and no incoming edges
+What is an adjacency list?|A graph representation where each node stores a list of adjacent vertices. In an undirected graph adjacent nodes store each other in their lists
+What is an edge set?|A graph representation using sets of coordinates in a list in a (from, to) fashion for directed and for undirected it's stored both ways
+What is adjacency matrix?|A graph representation where you create n by n boolean matrix where n is the number of nodes. maxtrix[u][v] if an edge exists from node u to node v
+
+For a adjacency matrix what is the time complexity for getting all adjacent edges for a vertex?|O(V) where V is the number of vertices in the graph
+For a adjacency matrix what is the time complexity for traversing the entire graph?|O(V^2) where V is the number of vertices in the graph
+For a adjacency matrix what is the time complexity for checking if two vertices have an edge between them?|O(1)
+For a adjacency matrix what is its space complexity?|O(V^2)
+
+For an edge set what is the time complexity for getting all adjacent edges for a vertex?|O(E) where E is the number of edges in the graph
+For an edge set what is the time complexity for traversing the entire graph?|O(E) where E is the number of edges in the graph
+For an edge set what is the time complexity for checking if two vertices have an edge between them?|O(E) where E is the number of edges in the graph
+For an edge set what is its space complexity?|O(E) where E is the number of edges in the graph
+
+For an adjacency list what is the time complexity for getting all adjacent edges for a vertex?|O(1)
+For an adjacency list what is the time complexity for traversing the entire graph?|O(V+E) where V is the number of vertices in a graph and E is the number of edges in the graph
+For an adjacency list what is the time complexity for checking if two vertices have an edge between them?|O(max number of edges a vertex has)
+For an adjacency list what is its space complexity?|O(E+V)
