@@ -25,7 +25,7 @@
 <h3 align="center">The Hub</h3>
 
   <p align="center">
-    The Hub is a full stack web project aimed at helping Computer Science Students, Software Engineers, and other degrees/disciplines study for their academics, learn new technologies to advance careers, and prepare candidates for technical interviews. Our core feature is an API that will allow users to access a rich database full of tech questions. Studies have shown that repetition is a great way to not only learn things quickly but also maintain that knowledge over long periods of time. After deploying our API we will work toward a dynamic flash card generation system that will span many topics. We want to involve the community in developing our datasets so we plan to implement a question submission system with forums where questions can be discussed and added. View the rest of our plans at the <a href="#roadmap">Project Roadmap</a>
+    The Hub is a full stack web project aimed at helping Computer Science Students, Software Engineers, and other degrees/disciplines study for their academics, learn new technologies to advance careers, and prepare candidates for technical interviews. Our core feature is an API that will allow users to access a rich database full of tech questions. Studies have shown that repetition is a great way to not only learn things quickly but also maintain that knowledge over long periods of time. After deploying our API we will work toward a dynamic flash card generation system that will span many topics. We want to involve the community in developing our datasets so we plan to implement a question submission system with forums where questions can be discussed and added. After all that we hope to incorporate some kind of AI that is capable of generating flash cards (perhaps by processing lecture notes or/and searching the internet). View the rest of our plans at the <a href="#roadmap">Project Roadmap</a>
     <br />
 <!--     <a href="https://github.com/commando-brando/the-hub"><strong>Explore the docs »</strong></a>
     <br />
@@ -139,7 +139,7 @@ This is an example of how to list things you need to use the software and how to
 - [ ] User account system
 - [ ] User Forum
 - [ ] Flash Card Generation & Integration
-- [ ] OpenAI Integration
+- [ ] OpenAI Integration 
 
 See the [open issues](https://github.com/commando-brando/the-hub/issues) for a full list of proposed features (and known issues).
 
