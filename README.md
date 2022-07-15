@@ -84,6 +84,7 @@
 
 * [![Node][Node.js]][Node-url]
 * [![Express][Express.js]][Express-url]
+* [![React][React]][React-url]
 * [![Bootstrap][Bootstrap]][Bootstrap-url]
 * [![mySQL][mySQL]][mySQL-url]
 * [![Prisma][Prisma]][Prisma-url]
@@ -218,6 +219,8 @@ Brandon Muller - [@Brandon_SWE](https://twitter.com/Brandon_SWE) - lift.off.to.a
 [Node-url]: https://nodejs.org/en/
 [Express.js]: https://img.shields.io/badge/Express.js-404D59?style=for-the-badge
 [Express-url]: https://expressjs.com/
+[React]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
+[React-url]: https://reactjs.org/docs/getting-started.html
 [Bootstrap]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com/
 [mySQL]: https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white
