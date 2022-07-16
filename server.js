@@ -4,7 +4,7 @@ const path = require('path');
 // mysql = require('mysql');
 
 require('dotenv').config();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 const app = express();
 
@@ -16,7 +16,7 @@ app.use(express.static('public')); // static lets us send images and css files t
 
 // app.use('/api/')
 
-app.use('/', require('./routes/pages'));
+app.use('/api/', require('./routes/pages'));
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
